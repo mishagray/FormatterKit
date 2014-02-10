@@ -204,13 +204,13 @@ static inline NSComparisonResult NSCalendarUnitCompareSignificance(NSCalendarUni
             case NSMonthCalendarUnit:
                 return singular ? NSLocalizedStringWithDefaultValue(@"Month Unit (Singular, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"mo", nil) : NSLocalizedStringWithDefaultValue(@"Month Unit (Plural, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"mo", nil);
             case NSWeekCalendarUnit:
-                return singular ? NSLocalizedStringWithDefaultValue(@"Week Unit (Singular, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"wk", nil) : NSLocalizedStringWithDefaultValue(@"Week Unit (Plural, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"wks", nil);
+                return singular ? NSLocalizedStringWithDefaultValue(@"Week Unit (Singular, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"w", nil) : NSLocalizedStringWithDefaultValue(@"Week Unit (Plural, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"w", nil);
             case NSDayCalendarUnit:
-                return singular ? NSLocalizedStringWithDefaultValue(@"Day Unit (Singular, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"day", nil) : NSLocalizedStringWithDefaultValue(@"Day Unit (Plural, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"days", nil);
+                return singular ? NSLocalizedStringWithDefaultValue(@"Day Unit (Singular, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"d", nil) : NSLocalizedStringWithDefaultValue(@"Day Unit (Plural, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"d", nil);
             case NSHourCalendarUnit:
-                return singular ? NSLocalizedStringWithDefaultValue(@"Hour Unit (Singular, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"hr", nil) : NSLocalizedStringWithDefaultValue(@"Hour Unit (Plural, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"hrs", nil);
+                return singular ? NSLocalizedStringWithDefaultValue(@"Hour Unit (Singular, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"h", nil) : NSLocalizedStringWithDefaultValue(@"Hour Unit (Plural, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"h", nil);
             case NSMinuteCalendarUnit:
-                return singular ? NSLocalizedStringWithDefaultValue(@"Minute Unit (Singular, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"min", nil) : NSLocalizedStringWithDefaultValue(@"Minute Unit (Plural, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"mins", nil);
+                return singular ? NSLocalizedStringWithDefaultValue(@"Minute Unit (Singular, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"m", nil) : NSLocalizedStringWithDefaultValue(@"Minute Unit (Plural, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"m", nil);
             case NSSecondCalendarUnit:
                 return singular ? NSLocalizedStringWithDefaultValue(@"Second Unit (Singular, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"s", nil) : NSLocalizedStringWithDefaultValue(@"Second Unit (Plural, Abbreviated)", @"FormatterKit", [NSBundle mainBundle], @"s", nil);
             default:
